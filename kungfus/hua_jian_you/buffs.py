@@ -9,5 +9,7 @@ BUFFS: Dict[type, Dict[int, dict]] = {
         # 奇穴
         11809: {}, 28116: {}, 12588: dict(buff_name="清流", continuous=True),
         -9722: dict(interval=320),
+        # 装备
+        18603: {}
     }
 }

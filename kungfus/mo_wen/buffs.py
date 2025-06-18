@@ -9,5 +9,7 @@ BUFFS: Dict[type, Dict[int, dict]] = {
         # 奇穴
         9495: {}, 30464: {}, 9437: {}, 23101: dict(buff_name="刻梦"), 12576: dict(buff_name="云汉"),
         25997: dict(begin_frame_shift=-2),
+        # 装备
+        10528: {}
     }
 }

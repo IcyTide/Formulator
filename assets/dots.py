@@ -1546,6 +1546,17 @@ DOTS = {
         "damage_base": 58,
         "lunar_damage_call": 1
     },
+    31147: {
+        "buff_name": "幻音(DOT)",
+        "alias_name": "新长歌特殊武器_130级幻音迭代",
+        "interval": 16,
+        "tick": 10,
+        "max_stack": 5,
+        "active_cof": 1.0,
+        "platform": 0,
+        "damage_base": 797390,
+        "lunar_damage_call": 1
+    },
     11447: {
         "buff_name": "闹须弥(DOT)",
         "alias_name": "闹须弥流血",

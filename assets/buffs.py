@@ -5648,6 +5648,21 @@ BUFFS = {
         "max_stack": 10,
         "recipes": {}
     },
+    18603: {
+        "attributes": [
+            {
+                "neutral_attack_power_base": 1500
+            },
+            {
+                "neutral_attack_power_base": 3000
+            }
+        ],
+        "max_level": 2,
+        "buff_name": "霜聚结露",
+        "alias_name": "万花特殊武器_霜聚结露",
+        "max_stack": 1,
+        "recipes": {}
+    },
     6121: {
         "attributes": [
             {
@@ -7638,6 +7653,27 @@ BUFFS = {
         "buff_name": "知音妙意",
         "alias_name": "正律和鸣结束会效buff",
         "max_stack": 1,
+        "recipes": {}
+    },
+    10528: {
+        "attributes": [
+            {
+                "strain_base": 436
+            },
+            {
+                "strain_base": 1034
+            },
+            {
+                "strain_base": 1137
+            },
+            {
+                "strain_base": 1667
+            }
+        ],
+        "max_level": 4,
+        "buff_name": "悠扬箫音",
+        "alias_name": "长歌门特殊武器_降仇恨",
+        "max_stack": 3,
         "recipes": {}
     },
     29561: {

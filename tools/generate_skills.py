@@ -136,7 +136,7 @@ def execute_lua(engine, lua_path):
             ["java", "-jar", "unluac.jar", "--rawstring", os.path.abspath(lua_path)],
             stdout=subprocess.PIPE, text=True
         ).stdout
-        engine.execute(INCLUDE_PATTERN.sub('', lua_code))
+        engine.execute(lua_code)
 
 SKILL_TAB = read_tab("settings/skill/skills.tab")
 SKILL_TAB['Platform'] = 0
