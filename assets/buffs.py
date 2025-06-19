@@ -6804,6 +6804,33 @@ BUFFS = {
             }
         ]
     },
+    16259: {
+        "attributes": [
+            {
+                "poison_overcome_base": 153
+            },
+            {
+                "poison_overcome_base": 1429
+            },
+            {
+                "poison_overcome_base": 2358
+            },
+            {
+                "poison_overcome_base": 6801
+            },
+            {
+                "poison_overcome_base": 153
+            },
+            {
+                "poison_overcome_base": 6801
+            }
+        ],
+        "max_level": 6,
+        "buff_name": "蝎灵·力",
+        "alias_name": "五毒新版特殊武器_主人BUFF",
+        "max_stack": 5,
+        "recipes": {}
+    },
     3254: {
         "attributes": {
             "spunk_gain": 20,
