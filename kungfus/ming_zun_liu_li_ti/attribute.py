@@ -3,9 +3,8 @@ from base.constant import BINARY_SCALE
 
 
 class Attribute(LunarAttribute, TankAttribute):
-    attribute_id = {
-        0: 10243
-    }
+    attribute_id = 10243
+
     _tank_buff_level = 4
 
     vitality_to_solar_attack_power: int = 0

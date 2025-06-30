@@ -3322,6 +3322,22 @@ RECIPES = {
             "recipe_name": "银月斩的会心几率提高10%"
         }
     },
+    4488: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 3967,
+            "recipe_type": 3967,
+            "recipe_name": "双消耗_日破伤害提高"
+        }
+    },
+    4489: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 3967,
+            "recipe_type": 3967,
+            "recipe_name": "双消耗_月破伤害提高"
+        }
+    },
     1340: {
         1: {
             "damage_addition": 31,

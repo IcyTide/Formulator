@@ -3,9 +3,8 @@ from typing import Dict
 from base.dot import Dot
 
 DOTS: Dict[type, Dict[int, dict]] = {
-    0: {
-        Dot: {
-            4202: {}
-        }
+    Dot: {
+        # 通用
+        4202: {}
     }
 }

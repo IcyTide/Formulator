@@ -15,7 +15,7 @@ SKILLS: Dict[type, Dict[int, dict]] = {
         # 奇穴
         29187: dict(bind_dots={8249: 1}), **{skill_id: {} for skill_id in (13110, 13107, 13108)},
         37253: {}, 37601: dict(bind_dots={8249: 1}), 37600: dict(bind_dots={8249: 1}), 34674: {}, 37448: {},
-        36482: {}, 36065: {}, 38890: {}, **{skill_id: {} for skill_id in (30925, 30926, 30857)},
+        36482: {}, 36065: {}, 38890: {}, 30925: {}, 30926: {}, 30857: {}, 25215: {},
         # **{skill_id: {} for skill_id in range(13076, 13085 + 1)},
         # **{skill_id: {} for skill_id in range(18355, 18364 + 1)},
         # **{skill_id: {} for skill_id in range(28468, 28477 + 1)},

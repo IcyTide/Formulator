@@ -142,9 +142,9 @@ SUPPORT_KUNGFU = {
     10242: Kungfu(
         10242, "焚影圣诀", "明教", "元气", "内功", "炎威破魔阵", fen_ying_sheng_jue
     ),
-    # 10243: Kungfu(
-    #     10243, "明尊琉璃体", "明教", "", "防御", "", ming_zun_liu_li_ti
-    # ),
+    10243: Kungfu(
+        10243, "明尊琉璃体", "明教", "", "防御", "", ming_zun_liu_li_ti
+    ),
     10268: Kungfu(
         10268, "笑尘诀", "丐帮", "力道", "外功", "降龙伏虎阵", xiao_chen_jue
     ),

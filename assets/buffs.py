@@ -5096,47 +5096,16 @@ BUFFS = {
         "recipes": {}
     },
     2686: {
-        "attributes": [
-            {
-                "solar_attack_power_gain": 204
-            },
-            {
-                "solar_attack_power_gain": 204
-            },
-            {
-                "solar_attack_power_gain": 204
-            },
-            {
-                "solar_attack_power_gain": 204
-            },
-            {
-                "solar_attack_power_gain": 204,
-                "solar_critical_strike_rate": 1000
-            },
-            {
-                "solar_attack_power_gain": 204,
-                "solar_critical_strike_rate": 1000
-            },
-            {
-                "solar_attack_power_gain": 204,
-                "solar_critical_strike_rate": 1000
-            },
-            {
-                "solar_attack_power_gain": 204,
-                "solar_critical_strike_rate": 1000
-            }
-        ],
-        "max_level": 8,
+        "attributes": {
+            "solar_attack_power_gain": 204
+        },
+        "max_level": 4,
         "buff_name": "擒龙诀",
         "alias_name": [
             "金刚诀",
             "金刚诀",
             "金刚诀_不回豆",
-            "金刚诀_不回豆回血",
-            "金刚诀",
-            "金刚诀",
-            "金刚诀",
-            "金刚诀"
+            "金刚诀_不回豆回血"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -7221,6 +7190,44 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    12578: {
+        "attributes": {},
+        "max_level": 2,
+        "alias_name": "明教_双消耗净世破魔破伤害提高",
+        "max_stack": 1,
+        "recipes": [
+            {
+                4488: 1
+            },
+            {
+                4489: 1
+            }
+        ]
+    },
+    30644: {
+        "attributes": {},
+        "max_level": 2,
+        "alias_name": [
+            "明教_净体不畏_日斩增伤",
+            "明教_净体不畏_月斩增伤"
+        ],
+        "max_stack": 1,
+        "recipes": [
+            {
+                5930: 1
+            },
+            {
+                5931: 1
+            }
+        ]
+    },
+    30645: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "已废弃_明教_用晦而明强化_月",
+        "max_stack": 1,
+        "recipes": {}
+    },
     30400: {
         "attributes": {
             "physical_critical_strike_rate": 2000,
@@ -7772,6 +7779,56 @@ BUFFS = {
         "recipes": {
             3350: 1
         }
+    },
+    15291: {
+        "attributes": [
+            {
+                "physical_overcome_base": 3836
+            },
+            {
+                "physical_overcome_base": 3989
+            },
+            {
+                "physical_overcome_base": 6611
+            },
+            {
+                "physical_overcome_base": 6611
+            },
+            {
+                "physical_overcome_base": 10544
+            },
+            {
+                "physical_overcome_base": 3989
+            },
+            {
+                "physical_overcome_base": 3989
+            },
+            {
+                "physical_overcome_base": 3989
+            },
+            {
+                "physical_overcome_base": 3989
+            },
+            {
+                "physical_overcome_base": 3989
+            }
+        ],
+        "max_level": 10,
+        "buff_name": "削金断铁",
+        "alias_name": [
+            "霸刀特殊武器_削金",
+            "霸刀特殊武器_削金 [15291]",
+            "霸刀特殊武器_削金",
+            "霸刀特殊武器_削金",
+            "霸刀特殊武器_削金",
+            "霸刀特殊武器_削金",
+            "霸刀特殊武器_削金",
+            "霸刀特殊武器_削金",
+            "霸刀特殊武器_削金",
+            "霸刀特殊武器_削金"
+        ],
+        "max_stack": 1,
+        "recipes": {}
     },
     30396: {
         "attributes": {

@@ -354,6 +354,13 @@ ATTRIBUTES = {
             7604
         ]
     },
+    10243: {
+        "alias_name": "明尊琉璃体",
+        "max_level": 14,
+        "pve_addition_base": 82,
+        "vitality_to_solar_attack_power": 51,
+        "vitality_to_lunar_attack_power": 51
+    },
     10268: {
         "alias_name": "笑尘诀",
         "max_level": 14,
