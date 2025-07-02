@@ -7236,6 +7236,20 @@ RECIPES = {
             "recipe_name": "《聘风令·劈风令》参悟断篇"
         }
     },
+    5610: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 38085,
+            "recipe_name": "绝脉引爆伤害提高10%"
+        }
+    },
+    5619: {
+        1: {
+            "damage_addition": 1024,
+            "recipe_type": 37781,
+            "recipe_name": "抟风令调息降低伤害增加"
+        }
+    },
     5845: {
         1: {
             "damage_addition": -308,

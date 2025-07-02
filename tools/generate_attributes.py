@@ -145,6 +145,9 @@ def collect_result():
     result = []
     lua_engine = prepare_lua_engine(INCLUDE_LUA)
     for skill_id in tqdm(prepare_attributes()):
+        if skill_id == 10243:
+            # Fxcking XSJ code bug
+            continue
         max_level, lua_path, attribute_args = parse_lua(skill_id)
         execute_lua(lua_engine, lua_path)
         for level in range(max_level):

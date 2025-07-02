@@ -4,13 +4,15 @@ from base.gain import Gain
 
 TALENTS: List[Dict[int, Gain]] = [
     {
-        38465: Gain("阳池", recipes=[(5578, 1)])
+        38465: Gain("阳池", recipes=[(5578, 1)]),
+        38466: Gain("玄气", recipes=[(5610, 1)])
     },
     {
         38468: Gain("涌泉", recipes=[(5617, 1)])
     },
     {
-        38473: Gain("封府", skill_ids=[38531])
+        38473: Gain("封府", skill_ids=[38531]),
+        38474: Gain("清激", recipes=[(5619, 1)])
     },
     {
         38480: Gain("见飓")

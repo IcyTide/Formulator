@@ -46,7 +46,7 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         5716: {}, 5717: {},
 
         # 奇穴
-        5845: {}, 5620: {},
+        5610: {}, 5619: {}, 5845: {}, 5620: {},
         5737: {}, 5749: {}, 5750: {}
     },
     CriticalStrikeRecipe_200: {
