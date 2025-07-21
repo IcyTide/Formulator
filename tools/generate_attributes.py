@@ -145,9 +145,6 @@ def collect_result():
     result = []
     lua_engine = prepare_lua_engine(INCLUDE_LUA)
     for skill_id in tqdm(prepare_attributes()):
-        if skill_id == 10243:
-            # Fxcking XSJ code bug
-            continue
         max_level, lua_path, attribute_args = parse_lua(skill_id)
         execute_lua(lua_engine, lua_path)
         for level in range(max_level):
@@ -155,7 +152,7 @@ def collect_result():
 
             attribute = AttributeLua(*attribute_args, level)
             attribute.max_level = max_level
-            lua_engine.globals()['GetSkillLevelData'](attribute)
+            lua_engine.globals().GetSkillLevelData(attribute)
 
             result.append(vars(attribute).copy())
     return pd.DataFrame(result)

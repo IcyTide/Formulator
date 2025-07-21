@@ -14842,13 +14842,13 @@ SKILLS = {
         "recipe_type": 18675,
         "recipe_mask": 0,
         "event_mask_1": 523,
-        "channel_interval": 988.5549960000003,
+        "channel_interval": 1136.8382454000002,
         "max_level": 1,
         "skill_name": "千秋万劫",
         "poison_damage_base": 40,
         "poison_damage_rand": 40,
         "poison_damage_call": 1,
-        "pve_addition": 2048
+        "pve_addition": 1638
     },
     28441: {
         "alias_name": "千秋万劫鸟翔期间打伤害",
@@ -14857,13 +14857,13 @@ SKILLS = {
         "recipe_type": 18675,
         "recipe_mask": 0,
         "event_mask_1": 523,
-        "channel_interval": 988.5549960000003,
+        "channel_interval": 1136.8382454000002,
         "max_level": 1,
         "skill_name": "千秋万劫·飞天",
         "poison_damage_base": 40,
         "poison_damage_rand": 40,
         "poison_damage_call": 1,
-        "pve_addition": 2048
+        "pve_addition": 1638
     },
     29687: {
         "alias_name": "天罗5%大附魔吞全部dot效果",

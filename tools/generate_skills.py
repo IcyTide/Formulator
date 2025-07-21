@@ -1,7 +1,4 @@
-import os.path
-import subprocess
-
-import lupa.lua54 as lupa
+import lupa.lua51 as lupa
 from tqdm import tqdm
 
 from kungfus import SUPPORT_KUNGFU
@@ -94,6 +91,10 @@ function Include(param)
     return true;
 end
 
+function GetDesertHorseList(param)
+    return {};
+end
+
 ABSORB_ATTRIBUTE_SHIELD_TYPE = {};
 RELATION_FORCE = {};
 GLOBAL = {
@@ -119,7 +120,7 @@ INCLUDE_PATTERN = re.compile(r'Include\("([^"]+)"\)')
 
 
 def prepare_lua_engine(preset_lua):
-    engine = lupa.LuaRuntime()
+    engine = lupa.LuaRuntime(encoding="gbk")
     engine.execute(preset_lua)
     execute_lua(engine, os.path.join(BASE_DIR, "scripts/include/Skill.lh"))
     execute_lua(engine, os.path.join(BASE_DIR, "scripts/include/NewSkill.lh"))
@@ -132,10 +133,8 @@ def execute_lua(engine, lua_path):
             lua_code = f.read()
         engine.execute(lua_code)
     except:
-        lua_code = subprocess.run(
-            ["java", "-jar", "unluac.jar", "--rawstring", os.path.abspath(lua_path)],
-            stdout=subprocess.PIPE, text=True
-        ).stdout
+        with open(lua_path, "rb") as f:
+            lua_code = f.read()
         engine.execute(lua_code)
 
 SKILL_TAB = read_tab("settings/skill/skills.tab")
