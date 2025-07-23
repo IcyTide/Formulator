@@ -1,4 +1,4 @@
 pyside6==6.7.2
 tqdm==4.66.5
-lupa==2.2
+./lupa-2.5-cp313-cp313-win_amd64.whl
 pandas==2.2.2
