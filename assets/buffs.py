@@ -6027,6 +6027,16 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    16468: {
+        "attributes": {
+            "physical_attack_power_gain": 21
+        },
+        "max_level": 4,
+        "buff_name": "背水沉舟",
+        "alias_name": "天策特殊武器_背水沉舟",
+        "max_stack": 1,
+        "recipes": {}
+    },
     18222: {
         "attributes": [
             {

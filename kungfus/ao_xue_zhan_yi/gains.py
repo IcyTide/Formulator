@@ -5,6 +5,8 @@ GAINS = {
     (2741,): Gain(),
     (1933,): Gain(),
     (2424,): Gain(),
+    (2905,): Gain(),
+    (5216, 1): Gain(),
     **{(1850, level + 1): Gain() for level in range(8)},
     **EQUIPMENT_GAINS,
 }
